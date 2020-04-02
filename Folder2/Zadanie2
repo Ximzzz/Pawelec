@@ -5,7 +5,6 @@ def setup():
     global kieruneky, kierunekx
     kieruneky=1
     kierunekx=1
-    global x,y
     size(400,400)
     frameRate(90)
     global slownik_kolorow 
