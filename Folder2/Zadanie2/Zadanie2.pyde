@@ -27,3 +27,5 @@ def draw():
     rect(x,y,b,b)
     if mousePressed:
         exit()
+# bardzo zgrabnie napisane
+# 2 pkt
