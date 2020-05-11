@@ -1,26 +1,25 @@
 class Przyciski():
     is_pressed = 0
  
-    def __init__(self, x, y, w, h):
+    def __init__(self, x, y, w):
         self.x=x
         self.y=y
         self.w=w
-        self.h=h
- 
+        
     def rysowanie(self):
         if self.is_pressed:
             fill(123,56,79)
-        rect(self.x, self.y, self.w, self.h)
+        circle(self.x, self.y, self.w)
  
 def setup():
     size(400,200)
     global duzy_przycisk
     global maly_przycisk
-    duzy_przycisk=Przyciski(170,100, 70, 70)
-    maly_przycisk=Przyciski(50,30, 50, 50)
+    duzy_przycisk=Przyciski(170,100, 70)
+    maly_przycisk=Przyciski(50,30, 50)
  
 def mouseClicked():
-    if (mouseX>50 and mouseX<100 and mouseY>30 and mouseY<70):
+    if (mouseX>25 and mouseX<75 and mouseY>5 and mouseY<60):
         maly_przycisk.is_pressed = not maly_przycisk.is_pressed
  
 def keyPressed():
