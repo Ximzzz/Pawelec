@@ -2,7 +2,7 @@ class Przyciski():
     is_pressed = 0
  
     def __init__(self, x, y, w):
-        self.x=x
+        self.x=x # powiedziałabym ,że atrybuty mocno inspirowane moimi ;)
         self.y=y
         self.w=w
         
@@ -39,3 +39,6 @@ def draw():
     maly_przycisk.rysowanie()
     fill(0, 255, 0)
     duzy_przycisk.rysowanie()
+
+# większą część kodu możnaby zawrzeć w kasie jakoatrybuty klasy i metody klasy
+# 1,75p
