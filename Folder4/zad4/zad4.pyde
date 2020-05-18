@@ -42,13 +42,8 @@ def draw():
         r1=rect(10,10,40,40)
         r2=rect(345,10,40,40)
               
-def mouseClicked(r1):
-    endRecord()
-    exit()
+def mouseClicked(): # skoro w obydwu przypadkach robisz to samo, to po co powielać, lepiej uogólnić :)
+    endRecord() # mankament umieszczenia tego tutaj jesttaki, że im dłużej program działa, tym więcej klatek się w nim zapisze jako warstwy a wyjściowy pdf będzie cięższy
+    exit() 
 
-def mouseClicked(r2):
-    endRecord()
-    exit()    
-    
-    #Nie wiem jak to będzie wyglądało u Pani w związku z tworzeniem się pdf-u. U mnie lokalnie, plik tworzył się 
-    #w folderze, w którym zapisywał się cały program. Mam nadzieję, że wszystko zadziała poprawnie.  
+# 2 pkt i plus do aktywności za zgrabne mini UI
