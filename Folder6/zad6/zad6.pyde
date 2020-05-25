@@ -24,3 +24,28 @@ def setup():
     kwadrat2.rysuj()
     
 # w tej postaci 0,5pkt, masz jeszcze czas poprawić
+
+#Mam nadzieję, że zmiana będzie widoczna, a nie chcę usuwać tego co Pani napisała :)
+
+class Kwadrat(): 
+    def __init__(self, bok):
+        self.bok = bok
+    def sketch(self, x, y):
+        self.x = x
+        self.y = y
+        rect(self.x, self.y, self.bok, self.bok)
+        
+class RysujKwadrat(Kwadrat):
+    def rysowanie(self,x,y):
+        self.sketch(x,y)
+    def kolorowanie(self,x,y,z):
+        fill(x,y,z)
+     
+def setup():
+    size(130,260)
+    kwadrat1=RysujKwadrat(70)
+    kwadrat1.kolorowanie(34,139,34)
+    kwadrat1.rysowanie(30,30)
+    kwadrat2=RysujKwadrat(90)
+    kwadrat2.kolorowanie(0,0,139)
+    kwadrat2.rysowanie(20,130)
