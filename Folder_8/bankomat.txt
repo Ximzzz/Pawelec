@@ -1,0 +1,23 @@
+Klasa - Class Bankomat()
+atrybut_klasy - stan_pieniedzy= stanp()
+atrybut - self.stan_pieniedzy = stan_pieniedzy_w_bankomacie
+metoda - def wypłata
+metoda - def wpłata
+metoda - def anuluj
+metoda - def sprawdz_stan_konta
+metoda - def sprawdz_historie_transakcji
+metoda - def zmien_PIN
+metoda - def wybór_jezyka
+metoda - def wydrukuj_paragon
+
+Klasa - Class Klient()
+atrybut_klasy - stan_konta=stank()
+atrybut - self.stan_konta = stan_konta
+metoda - def wloz_karte
+metoda - def wprowadz_PIN
+metoda - def wypłać_pieniądze
+metoda - def wpłać_pieniądze
+
+(Nie jestem pewny co do tego czy klasa Klient powinna mieć atrybuty, ale zakładając, że
+w bankomacie jest np. tylko 1000 zł, a chcemy wypłacić 2000 zł, które mamy na koncie
+to bankomat powinien nam odmówić)
