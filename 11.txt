@@ -1,0 +1,9 @@
+Szpital
+Pielęgniarka: Przybyła do nas ofiara wypadku samochodowego.
+Lekarz oddziałowy: Jak parametry? 
+Pielęgniarka: W normie
+Lekarz: Proszę podać sześć miligramów morfiny.
+Wzorzec: fasada
+Dlaczego: pielęgniarka posługuje się prostym językiem zrozumiałym dla każdego,a
+lekarz specjalistycznym, którego znajomość jest potrzebna by osiągnąć efekt, lekarz
+jest fasadą, która przyjmuje proste polecenia i tłumaczy na skomplikowane procesy.
