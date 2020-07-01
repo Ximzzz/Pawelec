@@ -7,3 +7,7 @@ Wzorzec: fasada
 Dlaczego: pielęgniarka posługuje się prostym językiem zrozumiałym dla każdego,a
 lekarz specjalistycznym, którego znajomość jest potrzebna by osiągnąć efekt, lekarz
 jest fasadą, która przyjmuje proste polecenia i tłumaczy na skomplikowane procesy.
+
+Ja nie rozumiem, jakie parametry  i co oznacza w normie - to też specjalistyczne...
+
+1,75pkt
