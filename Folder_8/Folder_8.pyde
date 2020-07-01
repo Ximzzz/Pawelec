@@ -57,3 +57,4 @@ def mouseClicked():
             library.lendBook(Rafal.requestBook("Harry Potter")) 
         if mouseY >40 and mouseY <60:
             library.addBook(Rafal.returnBook())
+# 0,5/0,5pkt za tą część

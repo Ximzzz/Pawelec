@@ -10,7 +10,7 @@ metoda - def zmien_PIN
 metoda - def wybór_jezyka
 metoda - def wydrukuj_paragon
 
-Klasa - Class Klient()
+Klasa - Class Klient() # jeden klient może mieć kilka kont i jest raczej reprezentowanay przez jakąś encję w systemie banku; tu powinna być raczej klasa karta/konto
 atrybut_klasy - stan_konta=stank()
 atrybut - self.stan_konta = stan_konta
 metoda - def wloz_karte
@@ -20,4 +20,6 @@ metoda - def wpłać_pieniądze
 
 (Nie jestem pewny co do tego czy klasa Klient powinna mieć atrybuty, ale zakładając, że
 w bankomacie jest np. tylko 1000 zł, a chcemy wypłacić 2000 zł, które mamy na koncie
-to bankomat powinien nam odmówić)
+to bankomat powinien nam odmówić) -> słuszne spostrzeżenie
+
+1,25/1,5pkt za tą częć
